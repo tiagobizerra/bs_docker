@@ -3,5 +3,13 @@
   "Logging": "/tmp/sample-app",
   "Image": {
   	"Update": "false"
-  }
+  },
+  "Ports" : [
+  	{
+  		"ContainerPort": "8000"
+  	},
+  	{
+  		"ContainerPort": "8001"
+  	}
+  ]
 }
