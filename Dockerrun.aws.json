@@ -2,8 +2,8 @@
   "AWSEBDockerrunVersion": "2",
    "containerDefinitions": [
     {
-      "name": "python",
-      "image": "python:2.7",
+      "name": "testnginx",
+      "image": "nginx",
       "essential": true,
       "memory": 128,
       "portMappings": [
