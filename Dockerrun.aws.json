@@ -7,6 +7,9 @@
   "Ports" : [
   	{
   		"ContainerPort": "8001"
+  	},
+  	{
+  		"ContainerPort": "8000"
   	}
   ]
 }
